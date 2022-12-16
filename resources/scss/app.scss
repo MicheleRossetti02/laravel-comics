@@ -1,1 +1,29 @@
-@import '~bootstrap/scss/bootstrap'
+@import '~bootstrap/scss/bootstrap';
+
+
+header {
+
+    nav {
+        background-color: white;
+
+
+        img {
+            width: 100px;
+        }
+
+        a {
+            margin-right: 30px;
+            padding-bottom: 36px;
+            text-decoration: none;
+            color: #1C1C1C;
+
+            &:hover {
+                border-bottom: 5px solid #0282F9;
+            }
+        }
+
+    }
+
+}
+
+main {}
